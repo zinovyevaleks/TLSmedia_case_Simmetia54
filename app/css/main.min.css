@@ -2895,5 +2895,86 @@ strong {
   margin-bottom: 160px;
 }
 
+.project-analysis {
+  color: #141414;
+}
+
+.project-analysis h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 52px;
+}
+
+.project-analysis p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+}
+
+.project-analysis .figure {
+  margin-top: 77px;
+  margin-bottom: 64px;
+}
+
+.project-analysis .figure-caption {
+  font-size: 18px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 25px;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.project-analysis .card-block {
+  margin-top: 120px;
+  margin-bottom: 124px;
+}
+
+.project-analysis .card-block .card {
+  -webkit-box-shadow: 4px 5px 21px 0 rgba(0, 0, 0, 0.21);
+          box-shadow: 4px 5px 21px 0 rgba(0, 0, 0, 0.21);
+  height: 359px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+}
+
+.project-analysis .card-block .card p {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  font-size: 45.75px;
+  font-weight: 700;
+}
+
+.project-analysis .card-block .card-left {
+  border-bottom: 5px solid red;
+}
+
+.project-analysis .card-block .card-middle {
+  background-color: #bbab62;
+}
+
+.project-analysis .card-block .card-right {
+  background-color: #ff0198;
+}
+
+.project-analysis .card-block .card-description {
+  margin-top: 20px;
+}
+
 /*==========  Desktop First  ==========*/
 /*==========  Mobile First  ==========*/
