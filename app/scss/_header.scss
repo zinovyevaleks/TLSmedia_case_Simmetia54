@@ -1,0 +1,58 @@
+.header {
+    &_top {
+        background: -webkit-linear-gradient(90deg, #eb3349 0%, #f45c43 100%);
+        background: -moz-linear-gradient(90deg, #eb3349 0%, #f45c43 100%);
+        background: -o-linear-gradient(90deg, #eb3349 0%, #f45c43 100%);
+        background: -ms-linear-gradient(90deg, #eb3349 0%, #f45c43 100%);
+        background: linear-gradient(0deg, #eb3349 0%, #f45c43 100%);
+        color: #ffffff;
+        font-weight: 900;
+
+        h1 {
+            font-size: 32px;
+            margin-top: 46px;
+            margin-bottom: 43px;
+        }
+    }
+
+    &_body {
+        background-image: url("../img/header_bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .logo {
+            margin-top: 220px;
+        }
+
+        h2 {
+            margin-top: 64px;
+            margin-bottom: 75px;
+            color: #ec3648;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 52px;
+            text-align: center;
+        }
+
+        .figure {
+            margin-bottom: 225px;
+
+            &-img {
+                margin-bottom: 33px;
+            }
+
+            &-caption {
+                font-family: 'Montserrat', sans-serif;
+                color: #000000;
+                font-size: 24px;
+                font-weight: 700;
+                text-align: center;
+                line-height: 1.2;
+
+                span {
+                    color:  #ec3648;
+                }
+            }
+        }
+    }
+}
