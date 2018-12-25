@@ -5,6 +5,7 @@
         font-size: 24px;
         font-weight: 900;
         line-height: 52px;
+        margin-top: 134px;
     }
 
     p {
@@ -60,6 +61,9 @@
 
             &-right {
                 background-color:  #ff0198;
+                p{
+                    color: #fff;
+                }
             }
 
             &-description {

@@ -2903,6 +2903,7 @@ strong {
   font-size: 24px;
   font-weight: 900;
   line-height: 52px;
+  margin-top: 134px;
 }
 
 .project-analysis p {
@@ -2972,8 +2973,79 @@ strong {
   background-color: #ff0198;
 }
 
+.project-analysis .card-block .card-right p {
+  color: #fff;
+}
+
 .project-analysis .card-block .card-description {
   margin-top: 20px;
+}
+
+.objective {
+  color: #141414;
+  background-color: #f7f7f7;
+  overflow: auto;
+}
+
+.objective h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 52px;
+  margin-top: 60px;
+}
+
+.objective p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+}
+
+.objective .card-block {
+  margin-top: 43px;
+  margin-bottom: 85px;
+}
+
+.objective .card-block .card {
+  background-color: #fff;
+  -webkit-box-shadow: 4px 5px 21px 0 rgba(0, 0, 0, 0.21);
+          box-shadow: 4px 5px 21px 0 rgba(0, 0, 0, 0.21);
+  height: 359px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  border-bottom: 5px solid red;
+}
+
+.objective .card-block .card-title {
+  font-family: 'Montserrat',sans-serif;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-top: 33px;
+}
+
+.objective .card-block .card-text {
+  text-align: center;
 }
 
 /*==========  Desktop First  ==========*/
