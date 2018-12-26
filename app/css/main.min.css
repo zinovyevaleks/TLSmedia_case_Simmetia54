@@ -3189,5 +3189,35 @@ strong {
   margin-bottom: 146px;
 }
 
+.typography {
+  color: #141414;
+}
+
+.typography h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 52px;
+  margin-top: 105px;
+  margin-bottom: 33px;
+}
+
+.typography p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+}
+
+.typography .chooise-font {
+  margin-top: 64px;
+  margin-bottom: 59px;
+}
+
+.typography .logo-full {
+  margin-top: 99px;
+  margin-bottom: 165px;
+}
+
 /*==========  Desktop First  ==========*/
 /*==========  Mobile First  ==========*/
