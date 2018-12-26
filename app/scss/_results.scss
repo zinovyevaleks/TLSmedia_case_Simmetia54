@@ -1,0 +1,84 @@
+.results {
+    &-header {
+        background: -webkit-linear-gradient(90deg, #eb3349 0%, #f45c43 100%);
+        background: -moz-linear-gradient(90deg, #eb3349 0%, #f45c43 100%);
+        background: -o-linear-gradient(90deg, #eb3349 0%, #f45c43 100%);
+        background: -ms-linear-gradient(90deg, #eb3349 0%, #f45c43 100%);
+        background: linear-gradient(0deg, #eb3349 0%, #f45c43 100%);
+        color: #ffffff;
+
+        h3 {
+            font-size: 24px;
+            font-weight: 900;
+            line-height: 52px;
+            margin-top: 114px;
+            margin-bottom: 33px;
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 23px;
+            font-weight: 500;
+            line-height: 36px;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .last-p {
+            margin-bottom: 145px;
+        }
+    }
+
+    &-content {
+        .figure-block {
+            margin-top: 120px;
+            margin-bottom: 124px;
+        }
+
+        .figure {
+            &-img {
+                margin-bottom: 33px;
+            }
+
+            &-caption {
+                font-family: 'Montserrat', sans-serif;
+                color: #000000;
+                font-size: 24px;
+                font-weight: 700;
+                text-align: center;
+                line-height: 1.2;
+
+                span {
+                    color: #ec3648;
+                }
+            }
+        }
+
+        h3 {
+            font-size: 24px;
+            font-weight: 900;
+        }
+
+        .question {
+            margin-top: 145px;
+            color: #ff3048;
+        }
+
+        .last-p {
+            margin-bottom: 42px;
+        }
+    }
+
+    .design-compare {
+        img {
+            margin-bottom: 39px;
+        }
+
+        p {
+            font-family: 'Raleway', sans-serif;
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 103px;
+        }
+    }
+}

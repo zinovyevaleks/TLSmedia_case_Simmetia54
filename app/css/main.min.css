@@ -3276,5 +3276,83 @@ strong {
   color: #141414;
 }
 
+.results-header {
+  background: -webkit-linear-gradient(90deg, #eb3349 0%, #f45c43 100%);
+  background: -o-linear-gradient(90deg, #eb3349 0%, #f45c43 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#eb3349), to(#f45c43));
+  background: -webkit-linear-gradient(bottom, #eb3349 0%, #f45c43 100%);
+  background: -o-linear-gradient(bottom, #eb3349 0%, #f45c43 100%);
+  background: linear-gradient(0deg, #eb3349 0%, #f45c43 100%);
+  color: #ffffff;
+}
+
+.results-header h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 52px;
+  margin-top: 114px;
+  margin-bottom: 33px;
+}
+
+.results-header p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.results-header .last-p {
+  margin-bottom: 145px;
+}
+
+.results-content .figure-block {
+  margin-top: 120px;
+  margin-bottom: 124px;
+}
+
+.results-content .figure-img {
+  margin-bottom: 33px;
+}
+
+.results-content .figure-caption {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.results-content .figure-caption span {
+  color: #ec3648;
+}
+
+.results-content h3 {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.results-content .question {
+  margin-top: 145px;
+  color: #ff3048;
+}
+
+.results-content .last-p {
+  margin-bottom: 42px;
+}
+
+.results .design-compare img {
+  margin-bottom: 39px;
+}
+
+.results .design-compare p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 103px;
+}
+
 /*==========  Desktop First  ==========*/
 /*==========  Mobile First  ==========*/
