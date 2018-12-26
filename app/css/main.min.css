@@ -3877,14 +3877,14 @@ strong {
   margin-bottom: 103px;
 }
 
-.register {
+.register .register-header {
   background-image: url("../img/texture_bg.jpg");
   -webkit-background-size: cover;
           background-size: cover;
   color: #fff;
 }
 
-.register h4 {
+.register .register-header h4 {
   font-family: 'Myriad Pro', sans-serif;
   font-size: 24px;
   font-weight: 400;
@@ -3892,17 +3892,17 @@ strong {
   margin-bottom: 23px;
 }
 
-.register .form-text {
+.register .register-header .form-text {
   font-family: 'Myriad Pro', sans-serif;
   font-size: 13px;
   font-weight: 400;
 }
 
-.register input {
+.register .register-header input {
   text-align: center;
 }
 
-.register .btn {
+.register .register-header .btn {
   background: -webkit-linear-gradient(90deg, #de6262 0%, #ffb88c 100%);
   background: -o-linear-gradient(90deg, #de6262 0%, #ffb88c 100%);
   background: -webkit-gradient(linear, left bottom, left top, from(#de6262), to(#ffb88c));
@@ -3922,6 +3922,74 @@ strong {
   font-weight: 700;
   margin-top: 23px;
   margin-bottom: 42px;
+}
+
+.register .register-content p {
+  margin-top: 43px;
+  font-family: 'Montserrat', sans-serif;
+  color: #141414;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+}
+
+.register .register-content .red-p {
+  color: #ff3048;
+}
+
+.footer {
+  margin-top: 127px;
+}
+
+.footer h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #ff3048;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 52px;
+  text-align: center;
+}
+
+.footer p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.footer input {
+  text-align: center;
+  width: 506px;
+}
+
+.footer .btn {
+  background: -webkit-linear-gradient(90deg, #de6262 0%, #ffb88c 100%);
+  background: -o-linear-gradient(90deg, #de6262 0%, #ffb88c 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#de6262), to(#ffb88c));
+  background: -webkit-linear-gradient(bottom, #de6262 0%, #ffb88c 100%);
+  background: -o-linear-gradient(bottom, #de6262 0%, #ffb88c 100%);
+  background: linear-gradient(0deg, #de6262 0%, #ffb88c 100%);
+  -webkit-box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.21);
+          box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.21);
+  width: 264px;
+  height: 57px;
+  border: none;
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
+  color: #fff;
+  margin-top: 31px;
+}
+
+.footer span {
+  font-family: 'Raleway', sans-serif;
+  color: #ff3048;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 52px;
+  text-align: center;
+  margin-top: 85px;
+  margin-bottom: 98px;
 }
 
 /*==========  Desktop First  ==========*/
