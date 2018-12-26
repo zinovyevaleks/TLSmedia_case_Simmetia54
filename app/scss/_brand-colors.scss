@@ -1,0 +1,61 @@
+.brand-colors {
+    color: #141414;
+
+    h3 {
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 52px;
+        margin-top: 105px;
+        margin-bottom: 33px;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25px;
+        text-align: center;
+    }
+
+     .last-p {
+        margin-top: 53px;
+        margin-bottom: 142px;
+    }
+
+    .card-block {
+        margin-top: 61px;
+        margin-bottom: 61px;
+    }
+
+    .card {
+        height: 262px;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-size: 23.99px;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+    }
+
+    .card-1 {
+        background-color: #e6ddd5;
+    }
+
+    .card-2 {
+        background-color:  #2d3241;
+        color: #fff;
+    }
+    .card-3{
+        background-color:  #5f0a87;
+        color: #fff;
+    }
+    .card-4{
+        background-color:  #a4508b;
+        color: #fff;
+    }
+}

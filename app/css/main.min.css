@@ -3087,5 +3087,77 @@ strong {
   padding-right: 10px;
 }
 
+.brand-colors {
+  color: #141414;
+}
+
+.brand-colors h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 52px;
+  margin-top: 105px;
+  margin-bottom: 33px;
+}
+
+.brand-colors p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+}
+
+.brand-colors .last-p {
+  margin-top: 53px;
+  margin-bottom: 142px;
+}
+
+.brand-colors .card-block {
+  margin-top: 61px;
+  margin-bottom: 61px;
+}
+
+.brand-colors .card {
+  height: 262px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.brand-colors .card p {
+  font-size: 23.99px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.brand-colors .card-1 {
+  background-color: #e6ddd5;
+}
+
+.brand-colors .card-2 {
+  background-color: #2d3241;
+  color: #fff;
+}
+
+.brand-colors .card-3 {
+  background-color: #5f0a87;
+  color: #fff;
+}
+
+.brand-colors .card-4 {
+  background-color: #a4508b;
+  color: #fff;
+}
+
 /*==========  Desktop First  ==========*/
 /*==========  Mobile First  ==========*/
