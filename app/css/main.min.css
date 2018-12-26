@@ -3260,6 +3260,35 @@ select.form-control-lg:not([size]):not([multiple]) {
   }
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  -webkit-border-radius: 0.25rem;
+          border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.figure {
+  display: inline-block;
+}
+
+.figure-img {
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.figure-caption {
+  font-size: 90%;
+  color: #6c757d;
+}
+
 ::-webkit-input-placeholder {
   color: #666;
 }
@@ -3347,6 +3376,7 @@ strong {
   font-size: 32px;
   margin-top: 46px;
   margin-bottom: 43px;
+  text-align: center;
 }
 
 .header_body {
