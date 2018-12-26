@@ -3048,5 +3048,44 @@ strong {
   text-align: center;
 }
 
+.work-progress {
+  color: #000000;
+}
+
+.work-progress h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 52px;
+  margin-top: 119px;
+  margin-bottom: 33px;
+}
+
+.work-progress p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 41px;
+}
+
+.work-progress img {
+  margin-bottom: 30px;
+}
+
+.work-progress .first-in-row {
+  margin-right: 30px;
+}
+
+.work-progress .img-col {
+  padding: 0;
+}
+
+.work-progress .img-col_2 {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
 /*==========  Desktop First  ==========*/
 /*==========  Mobile First  ==========*/
