@@ -1,0 +1,58 @@
+.redesign {
+    color: #141414;
+
+    h3 {
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 52px;
+        margin-top: 105px;
+        margin-bottom: 33px;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    h4 {
+        font-family: 'Ralewa', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 124px;
+    }
+
+    .design-before {
+        margin-bottom: -80px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .design-after {
+        h4 {
+            margin-top: 206px;
+        }
+    }
+
+    .last-p {
+        margin-top: 91px;
+        margin-bottom: 82px;
+        line-height: 36px;
+
+        a {
+            color: #141414;
+            text-decoration: underline;
+
+            &:active {
+                color: #141414;
+            }
+
+            &:visited {
+                color: #141414;
+            }
+        }
+    }
+}

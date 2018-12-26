@@ -3219,5 +3219,62 @@ strong {
   margin-bottom: 165px;
 }
 
+.redesign {
+  color: #141414;
+}
+
+.redesign h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 52px;
+  margin-top: 105px;
+  margin-bottom: 33px;
+}
+
+.redesign p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.redesign h4 {
+  font-family: 'Ralewa', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 124px;
+}
+
+.redesign .design-before {
+  margin-bottom: -80px;
+  position: relative;
+  z-index: 10;
+}
+
+.redesign .design-after h4 {
+  margin-top: 206px;
+}
+
+.redesign .last-p {
+  margin-top: 91px;
+  margin-bottom: 82px;
+  line-height: 36px;
+}
+
+.redesign .last-p a {
+  color: #141414;
+  text-decoration: underline;
+}
+
+.redesign .last-p a:active {
+  color: #141414;
+}
+
+.redesign .last-p a:visited {
+  color: #141414;
+}
+
 /*==========  Desktop First  ==========*/
 /*==========  Mobile First  ==========*/
