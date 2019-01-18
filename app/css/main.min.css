@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900&subset=latin-ext");
 @import url("https://fonts.googleapis.com/css?family=Kodchasan");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:700,900&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900&subset=cyrillic");
 @import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:800i&subset=cyrillic");
 /*!
  * Bootstrap Reboot v4.0.0 (https://getbootstrap.com)
@@ -3438,6 +3438,10 @@ strong {
   margin-bottom: 33px;
 }
 
+.header_body .figure-img-last {
+  margin-top: 22px;
+}
+
 .header_body .figure-caption {
   font-family: 'Montserrat', sans-serif;
   color: #000000;
@@ -3467,6 +3471,7 @@ strong {
   line-height: 52px;
   margin-top: 114px;
   margin-bottom: 33px;
+  text-transform: uppercase;
 }
 
 .about_client p {
@@ -3487,14 +3492,16 @@ strong {
   font-weight: 900;
   line-height: 52px;
   margin-top: 134px;
+  text-transform: uppercase;
 }
 
 .project-analysis p {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 25px;
   text-align: center;
+  font-style: italic;
 }
 
 .project-analysis .figure {
@@ -3509,6 +3516,7 @@ strong {
   line-height: 25px;
   text-align: center;
   margin-top: -50px;
+  color: #141414;
 }
 
 .project-analysis .card-block {
@@ -3539,7 +3547,7 @@ strong {
 
 .project-analysis .card-block .card p {
   font-family: 'Montserrat', sans-serif;
-  color: #000000;
+  color: #141414;
   font-size: 45.75px;
   font-weight: 700;
 }
@@ -3649,25 +3657,19 @@ strong {
   font-weight: 500;
   line-height: 25px;
   text-align: center;
-  margin: auto;
-  margin-bottom: 41px;
+  margin: auto auto 41px;
 }
 
 .work-progress img {
   margin-bottom: 30px;
 }
 
+.work-progress .last-img {
+  margin-top: -106px;
+}
+
 .work-progress .first-in-row {
   margin-right: 30px;
-}
-
-.work-progress .img-col {
-  padding: 0;
-}
-
-.work-progress .img-col_2 {
-  padding-left: 5px;
-  padding-right: 10px;
 }
 
 .brand-colors {
@@ -3879,8 +3881,8 @@ strong {
 
 .results-header p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 23px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 300;
   line-height: 36px;
   text-align: center;
   margin-bottom: 50px;
@@ -3897,6 +3899,10 @@ strong {
 
 .results-content .figure-img {
   margin-bottom: 33px;
+}
+
+.results-content .figure-img-last {
+  margin-top: 22px;
 }
 
 .results-content .figure-caption {
@@ -3920,6 +3926,11 @@ strong {
 .results-content .question {
   margin-top: 145px;
   color: #ff3048;
+}
+
+.results-content p {
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .results-content .last-p {
@@ -4003,7 +4014,7 @@ strong {
 
 .footer input {
   text-align: center;
-  width: 506px;
+  width: 26vw;
 }
 
 .footer .btn {

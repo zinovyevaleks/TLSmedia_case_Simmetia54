@@ -6,14 +6,16 @@
         font-weight: 900;
         line-height: 52px;
         margin-top: 134px;
+        text-transform: uppercase;
     }
 
     p {
         font-family: 'Montserrat', sans-serif;
         font-size: 18px;
-        font-weight: 500;
+        font-weight: 300;
         line-height: 25px;
         text-align: center;
+        font-style: italic;
     }
 
     .figure {
@@ -27,6 +29,7 @@
             line-height: 25px;
             text-align: center;
             margin-top: -50px;
+            color: #141414;
         }
     }
 
@@ -46,7 +49,7 @@
 
             p {
                 font-family: 'Montserrat', sans-serif;
-                color: #000000;
+                color: #141414;
                 font-size: 45.75px;
                 font-weight: 700;
             }
@@ -56,12 +59,13 @@
             }
 
             &-middle {
-                background-color:  #bbab62;
+                background-color: #bbab62;
             }
 
             &-right {
-                background-color:  #ff0198;
-                p{
+                background-color: #ff0198;
+
+                p {
                     color: #fff;
                 }
             }

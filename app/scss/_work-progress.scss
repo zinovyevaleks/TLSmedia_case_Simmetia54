@@ -15,25 +15,20 @@
         font-weight: 500;
         line-height: 25px;
         text-align: center;
-        margin: auto;
-        margin-bottom: 41px;
-
+        margin: auto auto 41px;
     }
 
     img {
         margin-bottom: 30px;
     }
 
+    .last-img {
+            margin-top: -106px;
+    }
+
+
     .first-in-row {
         margin-right: 30px;
     }
 
-    .img-col {
-        padding: 0;
-    }
-
-    .img-col_2 {
-        padding-left: 5px;
-        padding-right: 10px;
-    }
 }
