@@ -19,19 +19,20 @@
     }
 
     h4 {
-        font-family: 'Ralewa', sans-serif;
+        font-family: 'Raleway', sans-serif;
         font-size: 24px;
         font-weight: 700;
         margin-top: 124px;
     }
 
     .design-before {
-        margin-bottom: -80px;
-        position: relative;
-        z-index: 10;
+        // margin-bottom: -80px;
+        // position: relative;
+        // z-index: 10;
     }
 
     .design-after {
+
         h4 {
             margin-top: 206px;
         }
@@ -39,7 +40,7 @@
 
     .last-p {
         margin-top: 91px;
-        margin-bottom: 82px;
+        margin-bottom: 0px;
         line-height: 36px;
 
         a {
