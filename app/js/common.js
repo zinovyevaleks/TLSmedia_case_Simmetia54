@@ -1,33 +1,53 @@
 $(function() {
 
     //заявка на аудит
-    $("#auditForm").submit(function() {
-		var th = $(this);
-		$.ajax({
-			type: "POST",
-			url: "https://tls.media/mail.php",
-			data: th.serialize()
-		}).done(function() {
-            dataLayer.push({'event': 'formzayavka2'});
-			alert("Спасибо, мы скоро свяжемся с Вами!");
-			setTimeout(function() {
-				// Done Functions
-				th.trigger("reset");
-			}, 1000);
-		});
-		return false;
-	});
+    // $("#auditForm").submit(function() {
+    //     var th = $(this);
+    //     $.ajax({
+    //         type: "POST",
+    //         url: "https://tls.media/mail.php",
+    //         data: th.serialize()
+    //     }).done(function() {
+    //         dataLayer.push({
+    //             'event': 'formzayavka3'
+    //         });
+    //         alert("Благодарим вас за обращение. Наш мереджер свяжется с вами в ближайшее время.");
+    //         setTimeout(function() {
+    //             // Done Functions
+    //             th.trigger("reset");
+    //         }, 1000);
+    //     });
+    //     return false;
+	// });
 
     //Подписка на рассылку
-    $("#mailSubscription").submit(function() {
+    // $("#mailSubscription").submit(function() {
+    //     var th = $(this);
+    //     $.ajax({
+    //         type: "POST",
+    //         url: "https://tls.media/mail.php",
+    //         data: th.serialize()
+    //     }).done(function() {
+    //         dataLayer.push({
+    //             'event': 'formzayavka1'
+    //         });
+    //         alert("Благодарим вас за обращение. Наш мереджер свяжется с вами в ближайшее время.");
+    //         setTimeout(function() {
+    //             // Done Functions
+    //             th.trigger("reset");
+    //         }, 1000);
+    //     });
+    //     return false;
+	// });
+
+    $("form").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
-			url: "https://tls.media/mail.php",
+			url: "https://tls.media/mail.php", //Change
 			data: th.serialize()
 		}).done(function() {
-            dataLayer.push({'event': 'formzayavka2'});
-			alert("Спасибо, мы скоро свяжемся с Вами!");
+			alert("Thank you!");
 			setTimeout(function() {
 				// Done Functions
 				th.trigger("reset");
