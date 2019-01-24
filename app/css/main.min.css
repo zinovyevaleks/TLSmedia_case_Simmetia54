@@ -3391,68 +3391,26 @@ strong {
   outline: none;
 }
 
-.header_top {
-  background: -webkit-linear-gradient(90deg, #eb3349 0%, #f45c43 100%);
-  background: -o-linear-gradient(90deg, #eb3349 0%, #f45c43 100%);
-  background: -webkit-gradient(linear, left bottom, left top, from(#eb3349), to(#f45c43));
-  background: -webkit-linear-gradient(bottom, #eb3349 0%, #f45c43 100%);
-  background: -o-linear-gradient(bottom, #eb3349 0%, #f45c43 100%);
-  background: linear-gradient(0deg, #eb3349 0%, #f45c43 100%);
-  color: #ffffff;
-  font-weight: 900;
-}
-
-.header_top h1 {
-  font-size: 32px;
-  margin-top: 46px;
-  margin-bottom: 43px;
-  text-align: center;
-}
-
-.header_body {
-  background-image: url("../img/header_bg.png");
+.header {
+  background-image: url("../img/header_bg.jpg");
+  background-position: center center;
   -webkit-background-size: cover;
           background-size: cover;
   background-repeat: no-repeat;
+  color: #fff;
 }
 
-.header_body .logo {
-  margin-top: 220px;
-}
-
-.header_body h2 {
-  margin-top: 64px;
-  margin-bottom: 75px;
-  color: #ec3648;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 52px;
-  text-align: center;
-}
-
-.header_body .figure {
-  margin-bottom: 225px;
-}
-
-.header_body .figure-img {
-  margin-bottom: 33px;
-}
-
-.header_body .figure-img-last {
-  margin-top: 22px;
-}
-
-.header_body .figure-caption {
+.header h1 {
   font-family: 'Montserrat', sans-serif;
-  color: #000000;
-  font-size: 24px;
+  font-size: 42px;
   font-weight: 700;
-  text-align: center;
+  margin-top: 367px;
+  margin-bottom: 53px;
   line-height: 1.2;
 }
 
-.header_body .figure-caption span {
-  color: #ec3648;
+.header p {
+  margin-bottom: 530px;
 }
 
 .about_client {
