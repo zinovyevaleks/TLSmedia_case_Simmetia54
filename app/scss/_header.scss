@@ -1,20 +1,22 @@
 .header {
-    background-image: url("../img/header_bg.jpg");
-     background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
+  background-image: url("../img/header_bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
 
-    h1 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 42px;
-        font-weight: 700;
-        margin-top: 367px;
-        margin-bottom: 53px;
-        line-height: 1.2;
-    }
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 367px;
+    margin-bottom: 53px;
+    line-height: 1.2;
+  }
 
-    p {
-        margin-bottom: 530px;
-    }
+  p {
+    margin-bottom: 530px;
+    font-size: 18px;
+    font-weight: 700;
+  }
 }

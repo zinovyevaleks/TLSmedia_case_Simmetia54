@@ -1,0 +1,45 @@
+.how_work_block {
+  overflow: auto;
+
+  h3 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-top: 109px;
+  }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .card-block {
+    margin-top: 43px;
+    margin-bottom: 85px;
+
+    .card {
+      // background-color: #fff;
+      // box-shadow: 4px 5px 21px 0 rgba(0, 0, 0, 0.21);
+      height: 359px;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      // border-radius: 6px;
+      // border-bottom: 5px solid red;
+      &-title {
+        font-family: 'Montserrat',sans-serif;
+        color: rgb(255, 48, 72);
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 36px;
+        margin-top: 33px;
+      }
+    }
+  }
+}

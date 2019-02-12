@@ -12,6 +12,7 @@
 }
 
 body {
+	background-color: #FCFCFC;
 	font-size: 16px;
 	min-width: 320px;
 	position: relative;
@@ -75,11 +76,15 @@ b, strong {
 	}
 }
 
+h1,h2,h3,h4,h5 {
+	font-family: 'Montserrat', sans-serif;
+}
+
 
 @import "_header";
-@import "_about_client";
-@import "_project-analysis";
-@import "_objective";
+// @import "_about_client";
+// @import "_project-analysis";
+@import "_how_work_block";
 @import "_work-progress";
 @import "_brand-colors";
 @import "_logo-create";

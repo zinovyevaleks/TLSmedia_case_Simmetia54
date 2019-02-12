@@ -1,34 +1,36 @@
 .work-progress {
-    color: #000000;
+  color: #000000;
 
-    h3 {
-        font-size: 24px;
-        font-weight: 900;
-        line-height: 52px;
-        margin-top: 119px;
-        margin-bottom: 33px;
-    }
+  h3 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-top: 119px;
+    margin-bottom: 33px;
+  }
 
-    p {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 25px;
-        text-align: center;
-        margin: auto auto 41px;
-    }
+  p {
+    color:  #191919;
+font-size: 16px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    margin: auto auto 0px;
+  }
 
-    img {
-        margin-bottom: 30px;
-    }
+  .images-block {
+    margin-top: 63px;
+  }
 
-    .last-img {
-            margin-top: -106px;
-    }
+  img {
+    margin-bottom: 30px;
+  }
 
+  .last-img {
+    margin-top: -106px;
+  }
 
-    .first-in-row {
-        margin-right: 30px;
-    }
-
+  .first-in-row {
+    margin-right: 30px;
+  }
 }
